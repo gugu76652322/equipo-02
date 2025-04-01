@@ -11,9 +11,9 @@ Este proyecto está gestionado por un equipo de 5 personas, cada una con roles y
 
 2.  Cesar Garcia - *Diseño 3D e Investigacion*
 
-3.  Renzo Fernandez - *Prototipado y Diseño Electronico - Programacion*
+3.  Celeste Huapaya - *Prototipado y Diseño Electronico - Programacion*
 
-4.  Celeste Huapaya- *Manufactura Digital *
+4.  Renzo Fernandez- *Manufactura Digital - Modelado *
 
 5. Allison Fernandez - *Modelado e Impresion 3D*
 
