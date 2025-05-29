@@ -7,21 +7,25 @@
 
 ### ● Simulación del paciente acostado sobre la manta
 
-(Imagen de la maqueta)
+![image](https://github.com/user-attachments/assets/73d0343b-2af3-4d3c-afe7-9b6fa376b38a)
+
 
 ### ● Forma general del dispositivo
 
-(Imagen de la forma general)
+![image](https://github.com/user-attachments/assets/22a90e53-c057-47e0-9df4-495177249c4a)
 
-Luces LED simulan vibración.
+![image](https://github.com/user-attachments/assets/eaec093a-196d-4d39-ad2c-10e5796aa52b)
+
 
 ### ● Dispositivo con partes señaladas
 
-(Imagen con partes señaladas)
+![image](https://github.com/user-attachments/assets/5f909a39-d3df-41a5-9dc2-0341e4b72afe)
+
 
 ### ● Boceto previo mejorado
 
-(Imagen de boceto)
+![image](https://github.com/user-attachments/assets/e9a6c674-03c7-465c-bbd8-d55e96171fbb)
+
 
 Diseñado en Autocad.
 
@@ -39,6 +43,9 @@ Implementar una colchoneta que cuente con un sistema de vibración que estimule 
 Pacientes con lesión medular cervical a nivel C3, clasificado en la escala ASIA: B.
 
 **Componentes clave de la maqueta**
+
+![image](https://github.com/user-attachments/assets/3b78f7fb-c9bf-4276-b6d8-6e5982a0a951)
+
 
 **Materiales:**
 
