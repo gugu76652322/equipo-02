@@ -35,6 +35,9 @@ A continuación, se adjuntan los enlaces a estudios científicos, artículos rev
 **¿Cómo surgió la idea del prototipo?**   
 **En la presentación del parcial las apreciaciones de los profesores fueron:**
 
+![image](https://github.com/user-attachments/assets/fa98d83c-11f7-45b4-b62c-9132014b84ad)
+
+
 1. **El nombre: normalmente cuando decimos “manta” nos imaginamos algo que usas para taparse, no para echarte encima y que sea super flexible; si lo que queremos es implementar vibración la flexibilidad no va a ser nuestro aliado.**
 
 Entonces buscando algo que sea parecido a lo q nos imaginábamos encontré:
@@ -65,7 +68,7 @@ Identificando estos dos puntos importantes, planteo lo siguiente:
 
 Ya no se llamaría “manta”, porque normalmente se asocia con algo blando y flexible; y al incorporar sistemas de vibración, la flexibilidad ya no es una ventaja, sino un problema.
 
-Por eso, el nombre propuesto sería: (podemos buscar otros nombres si gustan)
+Por eso, el nombre propuesto sería: 
 
 * Módulo Inteligente de Alivio de Presión  
 * Plataforma inteligente para la prevención de escaras
@@ -115,6 +118,10 @@ De este modo, se genera un estímulo físico  que:
 
 Por todo lo anteriormente planteado propongo algo como esto:
 
+![image](https://github.com/user-attachments/assets/366313f4-aa7f-4fde-afdc-1d3c55204136)
+![image](https://github.com/user-attachments/assets/cf4af8eb-1f97-46eb-9bad-08ec83ff7175)
+
+
 Bueno en vez de q sean zonas generales creo q en la parte celeste podríamos hacerlo algo así:
 
 Opción uno: Así podemos generar los diferentes movimientos para que sea variado y que de verdad ayude a mantener el músculo en movimiento (contras: muchos sensores que generan vibración)- Uno por cuadrante
@@ -126,7 +133,9 @@ Hacer que el sistema utilice 4 discos vibradores x zona acomodados estratégicam
 * La vibración se distribuye mecánicamente hacia las zonas críticas (espalda, lumbar y glúteos).  
 * Esto reduce costos y electrónica, manteniendo la funcionalidad activa en el paciente tetrapléjico.
 
-![][image1]![][image2]
+![image](https://github.com/user-attachments/assets/61ca65c9-1fb5-47e6-b1c4-d990b1fc662e)
+![image](https://github.com/user-attachments/assets/8bef3a60-c0d4-4329-b15f-746d149fa963)
+
 
 (Los dibujos son referenciales, no va a quedar tal cual, tendríamos que diseñarlos a mano)
 
@@ -174,11 +183,15 @@ Por criterio propio, planeamos utilizar en total 12 motores vibradores tipo disc
 * Oxigenar mejor los tejidos mediante micro estímulos distribuidos.  
 * Trabajar la musculatura pasivamente con variación de frecuencias y zonas.  
 * Simular un “masaje programado” que mejora la circulación y reduce riesgo de escaras sin incomodar al paciente.  
-  Boceto diseñado en autocad:![][image3]
+
+Boceto diseñado en autocad:
+
+![image](https://github.com/user-attachments/assets/cca59940-004f-47e8-bb30-706796662053)
 
 Maqueta del prototipo:
 
-![][image4]
+![image](https://github.com/user-attachments/assets/84c03a44-0156-467b-9330-8bc5c73ab4e7)
+
 
 Video explicando en qué consiste la maqueta: 
 
@@ -200,7 +213,8 @@ Además, incluye un LED indicador que se enciende cuando inicia la vibración y 
 
 INFORMACIÓN EXTRA: con ayuda de Chat gpt, netamente para que nos arme una lista de costos aproximados:
 
-![][image5]
+![image](https://github.com/user-attachments/assets/a429393b-f536-4cfb-917c-4c8a81b1388f)
+
 
 **REFERENCIAS:**
 
