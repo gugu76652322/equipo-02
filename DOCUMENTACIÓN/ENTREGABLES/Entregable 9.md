@@ -2,7 +2,38 @@
 
 ## Diseño o esquema electrónico del concepto de solución
 
-![Captura de pantalla 2025-06-03 232539](https://github.com/user-attachments/assets/31612d1e-2255-4341-97b8-e84215b2067c)
+![image](https://github.com/user-attachments/assets/edd10434-144b-4d35-a426-523af4aafd8d)
+
+Observaciones respecto al esquema electrónico:
+
+- Especificaciones típicas del motor vibratorio tipo COIN HD-EM1003-LW15-R:
+
+Voltaje nominal: 3 V DC
+
+Corriente en carga típica: 85–100 mA
+
+Corriente de arranque (inrush): hasta 150–200 mA durante los primeros milisegundos
+
+- Los transistores usados del tipo 2N2222:
+
+Corriente máxima (IC máx.): 800 mA
+Segura hasta: ~500 mA continuos (con disipación mínima)
+
+- El transistor del tipo TIP120:
+
+Corriente máxima (IC máx.): 5 A
+Aplicación: Perfecto para manejar hasta 1 A o más sin problemas
+
+- Fuente de alimentación:
+
+Usaremos 4 pilas AA recargables del tipo Eneloop, las cuales alcanzarán para el tiempo necesario (10-15 minutos). Teniendo en cuenta el voltaje y capacidad
+de estas pilas, tendremos una duración aproximada de hasta 96 minutos, en otras palabras, podrían haber hasta 5 o 6 sesiones antes de tener que recargar las
+pilas.
+
+- Diodos añadidos en las zonas 1 y 2:
+
+Zona 1: 3 motores de vibración y un diodo 1N5819 para protección del transistor conectados en paralelo a los motores
+Zona 2: 2motores de vibración y un diodo 1N5819 para protección del transistor conectados en paralelo a los motores
 
 ---
 
@@ -140,3 +171,9 @@ http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S1682-00372020000300011
 
 [3] "Optimizing the Design of a Lateral Oscillating Device for Pressure Ulcer Prevention"  
 https://pubmed.ncbi.nlm.nih.gov/39800635/
+
+## Referencias de la información sobre las observaciones:
+[HD-EM1003-LW15-R.pdf](https://github.com/user-attachments/files/20599715/HD-EM1003-LW15-R.pdf)
+[nickelmetalhydride_appman.pdf](https://github.com/user-attachments/files/20599718/nickelmetalhydride_appman.pdf)
+[P2N2222A-D.PDF](https://github.com/user-attachments/files/20599721/P2N2222A-D.PDF)
+
