@@ -156,6 +156,22 @@ Zona 2: 2motores de vibración y un diodo 1N5819 para protección del transistor
 
   ![image](https://github.com/user-attachments/assets/d83747b7-e9fd-4f3f-8745-c80cd6cc441f)
 
+- Plataforma de Vibradores Localizados
+
+  ![image](https://github.com/user-attachments/assets/4a2405c5-00b4-4d26-891f-9cc1f5509cfa)
+
+- Caja de componentes electrónicos
+
+  ![image](https://github.com/user-attachments/assets/12de5f68-f2df-4417-9255-6c82a6e05eb8)
+
+- Ensamble de la manta con los vibradores
+
+  ![image](https://github.com/user-attachments/assets/dbe77ca9-eac1-40e7-8ef4-c9070ef93dff)
+
+- Vista isométrica de la caja
+
+  ![image](https://github.com/user-attachments/assets/e1c25198-10b3-4495-a0ec-e1d9e8669de0)
+
 
 🔗 [Ver piezas en OnShape](https://cad.onshape.com/documents/a2ab5cac928358b294b8e734/w/1b63dac98f2b4d9a44575ce3/e/93f64a861063b6d3c5daa7a0?renderMode=0&uiState=683fcbf0890e3e5bb443480a)
 
