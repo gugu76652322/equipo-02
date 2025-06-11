@@ -5,6 +5,9 @@
 
 ### Diagrama o esquema electrónico
 
+![Captura de pantalla 2025-06-04 175522](https://github.com/user-attachments/assets/623f20d1-ba62-4664-855d-977b31c38a09)
+
+
 #### Observaciones respecto al esquema electrónico
 
 - Especificaciones típicas del motor vibratorio tipo COIN HD-EM1003-LW15-R:
@@ -30,7 +33,25 @@
 
 ### Ejecución del código Arduino con componentes físicos implementados
 
+![Captura de pantalla 2025-06-11 000413](https://github.com/user-attachments/assets/32eb50c5-3912-4950-9040-0dca9243c0b2)
+
+![Captura de pantalla 2025-06-11 000445](https://github.com/user-attachments/assets/99133250-6f4c-4a2c-b9e7-335f2ab267c5)
+
+![Captura de pantalla 2025-06-11 000502](https://github.com/user-attachments/assets/df1e92b2-4c59-4123-8ad9-9bdb59e2e53a)
+
+![Captura de pantalla 2025-06-11 000520](https://github.com/user-attachments/assets/63eb05d3-24c3-46ca-adee-29dfb0e39e75)
+
+![Captura de pantalla 2025-06-11 000533](https://github.com/user-attachments/assets/f3e0f772-2d7c-48dc-bc4d-86c5f30621b5)
+
+
 ### Avance de prototipado electrónico
+
+![WhatsApp Image 2025-06-10 at 22 44 14](https://github.com/user-attachments/assets/f26b9128-06ca-4a88-bccf-a538cc6e0b4c)
+
+![WhatsApp Image 2025-06-10 at 22 44 15](https://github.com/user-attachments/assets/d5a8da5f-22cf-4e82-94c1-8202cf52536c)
+
+![WhatsApp Image 2025-06-10 at 22 44 15 (1)](https://github.com/user-attachments/assets/0f571917-e52a-4575-8e68-94952d6ada6b)
+
 
 ## 2. Fabricación digital
 
