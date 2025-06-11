@@ -55,10 +55,22 @@
 
 ## 2. Fabricación digital
 
+![image](https://github.com/user-attachments/assets/e986832e-82e7-460a-aa4d-cb8441da6ebd)
+
+![image](https://github.com/user-attachments/assets/7b3b6e1a-59aa-4c73-bdc8-c4fbc6c4a47d)
+
 ### Archivos STL
 
+![image](https://github.com/user-attachments/assets/e1d8b983-b53c-42a5-8afd-01f0e0f1811c)
+
 - Tiempo inicial de impresión: 1 día, 1 hora y 52 minutos
-- Tiempo optimizado: 15 horas con 28 minutos
+
+![image](https://github.com/user-attachments/assets/0f347efe-8a4a-4b54-929a-50dd2f96512d)
+
+- Tiempo optimizado ajustando la velocidad de impresión y el uso de material: 15 horas con 28 minutos
+
+![image](https://github.com/user-attachments/assets/d09aaef4-e718-483e-9ab3-f98311aa364e)
+
 
 ## 3. Plan de usabilidad basado en evidencias
 
