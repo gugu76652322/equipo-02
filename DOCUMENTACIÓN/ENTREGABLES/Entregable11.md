@@ -2,6 +2,21 @@
 
 ![WhatsApp Image 2025-06-17 at 21 33 22](https://github.com/user-attachments/assets/bc4cbbb9-0810-4acf-a4f6-7741bde87090)
 
+# Avance de Fabricación Digital:
+
+### Prototipo
+
+![image](https://github.com/user-attachments/assets/5860326c-cec9-4a21-9f1b-a7fde2e586f5)
+
+### Piezas que se imprimirán
+
+![image](https://github.com/user-attachments/assets/1de39bf4-a52f-4109-97d4-b8093d4e478f)
+
+![image](https://github.com/user-attachments/assets/7a7227fd-026b-4ec7-920f-03d5cb15f0b4)
+
+![image](https://github.com/user-attachments/assets/4ed435fd-b6ef-41fd-908e-b65ef3efa913)
+
+![image](https://github.com/user-attachments/assets/bfdee1a0-578b-4de1-90c9-4d4cc81dad93)
 
 # Justificación de nuevo proyecto
 
