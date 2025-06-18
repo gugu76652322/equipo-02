@@ -1,6 +1,7 @@
 # Prototipado electrónico:
 
-![Prototipado electrónico](b2d382f4-001e-4f80-a29d-4bd2eb0ad7cc.png)
+![WhatsApp Image 2025-06-17 at 21 33 22](https://github.com/user-attachments/assets/bc4cbbb9-0810-4acf-a4f6-7741bde87090)
+
 
 # Justificación de nuevo proyecto
 
