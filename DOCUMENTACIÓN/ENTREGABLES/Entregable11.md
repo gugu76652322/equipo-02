@@ -101,6 +101,10 @@ void mostrarModo() {
 ```
 # Avance de Fabricación Digital:
 
+### Link Onshape:
+
+https://cad.onshape.com/documents/a2ab5cac928358b294b8e734/w/1b63dac98f2b4d9a44575ce3/e/246b7a50b909e9a633afc0a8
+
 ### Prototipo
 
 ![image](https://github.com/user-attachments/assets/5860326c-cec9-4a21-9f1b-a7fde2e586f5)
