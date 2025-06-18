@@ -2,6 +2,103 @@
 
 ![WhatsApp Image 2025-06-17 at 21 33 22](https://github.com/user-attachments/assets/bc4cbbb9-0810-4acf-a4f6-7741bde87090)
 
+# Video en funcionamiento:
+
+https://github.com/user-attachments/assets/616cca93-1117-4f44-90d2-93936758373e
+
+# Código usado:
+
+```cpp
+
+#include <U8g2lib.h>
+#include <Wire.h>
+
+// OLED SSD1327 (128x128) en modo page buffer
+U8G2_SSD1327_MIDAS_128X128_1_HW_I2C u8g2(U8G2_R0, /* reset=*/ U8X8_PIN_NONE);
+
+// Pines del motor en canal B
+const int IN3 = 6;
+const int IN4 = 7;
+const int ENB = 11;
+
+// Pines del encoder
+const int CLK = 2;
+const int DT  = 3;
+const int SW  = 4;
+
+int modo = 0;               // 0 = parado, 1 = sentido A, 2 = sentido B
+bool pausado = false;
+int ultimoCLK = HIGH;
+bool ultimoSW = HIGH;
+
+const int PWM_BAJO = 100;   //Velocidad del motor
+
+void setup() {
+  u8g2.begin();
+  mostrarModo();
+
+  pinMode(IN3, OUTPUT); pinMode(IN4, OUTPUT); pinMode(ENB, OUTPUT);
+  pinMode(CLK, INPUT_PULLUP);
+  pinMode(DT, INPUT_PULLUP);
+  pinMode(SW, INPUT_PULLUP);
+
+  ultimoCLK = digitalRead(CLK);
+}
+
+void loop() {
+  // Encoder - cambio de modo
+  int estadoCLK = digitalRead(CLK);
+  if (estadoCLK != ultimoCLK) {
+    if (digitalRead(DT) != estadoCLK) {
+      modo++; if (modo > 2) modo = 0;
+    } else {
+      modo--; if (modo < 0) modo = 2;
+    }
+    mostrarModo();
+  }
+  ultimoCLK = estadoCLK;
+
+  // Encoder - botón para pausar
+  int estadoSW = digitalRead(SW);
+  if (estadoSW == LOW && ultimoSW == HIGH) {
+    pausado = !pausado;
+    mostrarModo();
+    delay(200);  // antirrebote
+  }
+  ultimoSW = estadoSW;
+
+  // Control del motor
+  if (pausado || modo == 0) {
+    analogWrite(ENB, 0);
+  } else {
+    analogWrite(ENB, PWM_BAJO);
+    if (modo == 1) {
+      digitalWrite(IN3, HIGH);
+      digitalWrite(IN4, LOW);
+    } else if (modo == 2) {
+      digitalWrite(IN3, LOW);
+      digitalWrite(IN4, HIGH);
+    }
+  }
+}
+
+void mostrarModo() {
+  u8g2.firstPage();
+  do {
+    u8g2.setFont(u8g2_font_ncenB10_tr);
+    if (pausado) {
+      u8g2.drawStr(0, 20, "Sistema pausado");
+    } else {
+      switch (modo) {
+        case 0: u8g2.drawStr(0, 20, "Modo 0: Parado"); break;
+        case 1: u8g2.drawStr(0, 20, "Modo 1: Gira -->"); break;
+        case 2: u8g2.drawStr(0, 20, "Modo 2: Gira <--"); break;
+      }
+    }
+  } while (u8g2.nextPage());
+}
+
+```
 # Avance de Fabricación Digital:
 
 ### Prototipo
@@ -17,6 +114,10 @@
 ![image](https://github.com/user-attachments/assets/4ed435fd-b6ef-41fd-908e-b65ef3efa913)
 
 ![image](https://github.com/user-attachments/assets/bfdee1a0-578b-4de1-90c9-4d4cc81dad93)
+
+# Boceto:
+
+![WhatsApp Image 2025-06-18 at 15 01 35](https://github.com/user-attachments/assets/f73d1ecd-29b1-45b7-b90f-999eff23e298)
 
 # Justificación de nuevo proyecto
 
